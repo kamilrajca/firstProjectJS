@@ -3,7 +3,7 @@
 function rysujChoinke(poziom){ 
   for (var i=0; i<=poziom; i++) {
     var star = "";
-    for (var n=0; n <(2*i-1); n++) {
+    for (var n=0; n <(2*i+1); n++) {
         star += '*';
     }
     console.log(star)
